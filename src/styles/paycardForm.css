@@ -1,0 +1,19 @@
+.paycard-form {
+  color: black;
+  margin: 10px;
+}
+
+.paycard-form .row {
+  margin-top: 10px;
+}
+
+.paycard-form select {
+  -webkit-appearance: menulist;
+  -moz-appearance: menulist;
+  appearance: menulist;
+}
+
+.paycard-form button {
+  width: 90%;
+}
+/*# sourceMappingURL=paycardForm.css.map */

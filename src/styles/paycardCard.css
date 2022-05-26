@@ -1,0 +1,118 @@
+.paycardCard {
+  background-image: url("../img/card-background/1.jpeg");
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -8em;
+  position: relative;
+  width: 85%;
+  min-width: 400px;
+  height: 16em;
+  border-radius: 25px;
+  color: white;
+  font-family: monospace;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.paycardCard .outlined {
+  outline: white 1px solid;
+  outline-offset: 3px;
+}
+
+.paycardCard.frontside .firstRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 15px;
+}
+
+.paycardCard.frontside .firstRow .chip {
+  width: 15%;
+}
+
+.paycardCard.frontside .firstRow .cardType {
+  height: 3.2em;
+}
+
+.paycardCard.frontside .label {
+  color: rgba(255, 255, 255, 0.829);
+}
+
+.paycardCard.frontside .cardNumber {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7%;
+  font-size: 1.5em;
+  letter-spacing: 2px;
+  width: 90%;
+}
+
+.paycardCard.frontside .lastRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 7%;
+}
+
+.paycardCard.frontside .lastRow .cardName {
+  width: 14em;
+}
+
+.paycardCard.frontside .lastRow .expirationDate {
+  width: 4em;
+}
+
+.paycardCard.backside {
+  display: block;
+  padding-top: 0.5em;
+}
+
+.paycardCard.backside .blackBelt {
+  margin-top: 1.5em;
+  background-color: black;
+  width: 100%;
+  height: 3em;
+}
+
+.paycardCard.backside .cvvTitle {
+  margin-top: 1em;
+  margin-right: 2em;
+  text-align: right;
+}
+
+.paycardCard.backside .cvvNumber {
+  background-color: white;
+  width: 90%;
+  height: 3em;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: right;
+  color: black;
+  padding: 0.7em;
+}
+
+.paycardCard.backside .cardType {
+  height: 3em;
+  margin-top: 5%;
+  margin-left: 40%;
+}
+/*# sourceMappingURL=paycardCard.css.map */
