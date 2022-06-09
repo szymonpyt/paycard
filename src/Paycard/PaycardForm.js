@@ -205,7 +205,7 @@ export default function PaycardForm(){
             <Row>
                 <div className="text-center">
                     <Button variant="primary" type="submit" onClick={handleSubmit}>
-                    Submit button
+                    Submit button again
                     </Button>
                 </div>
                 
