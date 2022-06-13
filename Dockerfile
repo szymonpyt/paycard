@@ -1,4 +1,5 @@
-FROM node:12-slim
+ARG REPO=973265445380.dkr.ecr.us-east-2.amazonaws.com
+FROM ${REPO}/node:12-slim
 
 
 WORKDIR /app
