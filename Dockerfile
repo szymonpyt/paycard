@@ -10,6 +10,6 @@ RUN npm install
 
 COPY public /app/public  
 COPY src /app/src
-ENV imie=Adam
+
 
 ENTRYPOINT ["npm","start"]
